@@ -1,0 +1,9 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.3</jsp-version>
+    <tag>
+        <name>upper</name>
+        <tag-class>deep.Upper</tag-class>
+        <body-content>JSP</body-content>
+    </tag>
+</taglib>

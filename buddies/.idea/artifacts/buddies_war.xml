@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="buddies:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/buddies_war</output-path>
+    <root id="archive" name="buddies_war.war">
+      <element id="artifact" artifact-name="buddies:war exploded" />
+      <element id="dir-copy" path="$PROJECT_DIR$/web" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="file-copy" path="/opt/tomcat/lib/mysql-connector-java-5.1.12-bin.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

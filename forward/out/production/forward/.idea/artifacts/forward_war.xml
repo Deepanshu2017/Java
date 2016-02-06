@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="forward:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/forward_war</output-path>
+    <root id="archive" name="forward_war.war">
+      <element id="artifact" artifact-name="forward:war exploded" />
+    </root>
+  </artifact>
+</component>

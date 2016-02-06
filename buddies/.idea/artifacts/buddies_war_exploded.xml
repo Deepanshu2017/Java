@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="buddies:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/buddies_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="buddies/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="buddies" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="/opt/tomcat/lib/mysql-connector-java-5.1.12-bin.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

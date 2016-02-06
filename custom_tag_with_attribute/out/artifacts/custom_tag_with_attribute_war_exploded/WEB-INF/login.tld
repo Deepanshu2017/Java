@@ -1,0 +1,18 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.3</jsp-version>
+    <tag>
+        <name>login</name>
+        <tag-class>deep.Login</tag-class>
+        <attribute>
+            <name>user</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>pass</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>
